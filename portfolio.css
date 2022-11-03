@@ -1,0 +1,160 @@
+
+@media (max-width: 798px) and (min-width: 370px) {
+    #navbar {
+      font-size: 1.1em;
+      padding: 0px 5px  0px 0px;
+      text-transform: uppercase;
+    }
+  
+    #contact > span {
+      font-size: 35px;
+      color: green;
+    }
+  
+  }
+        
+  @media (min-width: 800px) and (max-width: 3000px) {
+    #end {
+      font-size: 2.0em;
+      padding: 20px;
+    }
+    #navbar {
+      font-size: 1.9em;
+      padding-bottom: 30px;
+    }
+    #contact > a {
+      font-size: 2em;
+    }
+  
+    #big {
+      font-size: 1.5em;
+    }
+    .long {
+      font-size: 3em;
+    }
+  }
+  :root {
+    --back-ground: #f6f7b3;
+  }
+  body {
+    margin: 0;
+    background-color: var(--back-ground); 
+  }
+  
+  nav {
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    font-size: 1.1em;
+  }
+  
+  li {
+    position: relative;
+    width: 20vw;
+    float: right;
+    padding-left: 9px;
+    }
+  li > a {
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    font-size: 1.0em;
+    padding-left: 10px;
+  }
+  #welcome-section {
+    height: 100vh;
+    width: 100vw;
+    background-color: #f6f7b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 1.9em;
+  }
+  h2 {
+    padding: 30px 0px 10px 0px;
+    text-align: center;
+    margin: 10px 0px 30px 0px;
+  }
+  h2 > span {
+    border-bottom: 1px solid white;
+    padding: 5px;
+  }
+  #projects {
+    width: 100vw;
+    height: auto;
+    background-color: #0a0a27;
+    color: white;
+    background: auto;
+  }
+  #projects > .spread > a > p {
+    color: white;
+    text-decoration: none;
+  }
+  .spread > a {
+    text-decoration: none;
+  }
+  .spread {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .project-tile {
+   width: 30%; 
+  }
+  
+  .project-image {
+    height: 300pxx;
+    width: 28vw;
+  }
+  
+  #contact {
+   height: 100vh;
+   width: 100vw;
+   background-color: var(--back-ground);
+   text-align: center;
+   margin-top: 300px;
+   color: black;
+  }
+  
+  #contact > h1 {
+    font-size: 2.3em;
+  }
+  #contact > p {
+    font-size: 1.3em;
+    margin-top: 0px;
+  }
+  #contact > a {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    margin-right: 20px;  
+    font-size: 0.8em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0;
+  }
+  #contact > a > img {
+    width: 20px;
+    margin-bottom: -5px;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    height: 30px;
+    text-align: center;
+    font-family: serif;
+    padding: 5px;
+    font-size: 1.0em;
+    
+  }
+  #good {
+    border-bottom: 3px solid black;
+    padding-bottom: 420px;
+  }
+  
+  
